@@ -1,0 +1,744 @@
+{
+  "format-version" : 2,
+  "table-uuid" : "e80af690-ed29-4bdd-8b8b-c1dbb25d7ba7",
+  "location" : "warehouse_path/filmes/top100",
+  "last-sequence-number" : 15,
+  "last-updated-ms" : 1762373329736,
+  "last-column-id" : 25,
+  "current-schema-id" : 3,
+  "schemas" : [ {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "titulo",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 2,
+      "name" : "ano",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 3,
+      "name" : "nota",
+      "required" : false,
+      "type" : "double"
+    } ]
+  }, {
+    "type" : "struct",
+    "schema-id" : 1,
+    "fields" : [ {
+      "id" : 4,
+      "name" : "Rank",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 5,
+      "name" : "Title",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 6,
+      "name" : "Year",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 7,
+      "name" : "Genre(s)",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 8,
+      "name" : "Director",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 9,
+      "name" : "Main Actor(s)",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 10,
+      "name" : "Country",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 11,
+      "name" : "IMDb Rating",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 12,
+      "name" : "Rotten Tomatoes %",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 13,
+      "name" : "Runtime (mins)",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 14,
+      "name" : "Language",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 15,
+      "name" : "Oscars Won",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 16,
+      "name" : "Box Office ($M)",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 17,
+      "name" : "Metacritic Score",
+      "required" : false,
+      "type" : "string"
+    } ]
+  }, {
+    "type" : "struct",
+    "schema-id" : 2,
+    "fields" : [ {
+      "id" : 4,
+      "name" : "Rank",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 5,
+      "name" : "Title",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 6,
+      "name" : "Year",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 18,
+      "name" : "Genre",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 8,
+      "name" : "Director",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 19,
+      "name" : "Main_Actor",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 10,
+      "name" : "Country",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 20,
+      "name" : "IMDb_Rating",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 12,
+      "name" : "Rotten Tomatoes %",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 13,
+      "name" : "Runtime (mins)",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 14,
+      "name" : "Language",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 15,
+      "name" : "Oscars Won",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 21,
+      "name" : "Box_Office",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 17,
+      "name" : "Metacritic Score",
+      "required" : false,
+      "type" : "string"
+    } ]
+  }, {
+    "type" : "struct",
+    "schema-id" : 3,
+    "fields" : [ {
+      "id" : 4,
+      "name" : "Rank",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 5,
+      "name" : "Title",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 6,
+      "name" : "Year",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 18,
+      "name" : "Genre",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 8,
+      "name" : "Director",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 19,
+      "name" : "Main_Actor",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 10,
+      "name" : "Country",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 20,
+      "name" : "IMDb_Rating",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 22,
+      "name" : "Rotten_Tomatoes",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 23,
+      "name" : "Runtime",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 14,
+      "name" : "Language",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 24,
+      "name" : "Oscars_Won",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 21,
+      "name" : "Box_Office",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 25,
+      "name" : "Metacritic_Score",
+      "required" : false,
+      "type" : "string"
+    } ]
+  } ],
+  "default-spec-id" : 0,
+  "partition-specs" : [ {
+    "spec-id" : 0,
+    "fields" : [ ]
+  } ],
+  "last-partition-id" : 999,
+  "default-sort-order-id" : 0,
+  "sort-orders" : [ {
+    "order-id" : 0,
+    "fields" : [ ]
+  } ],
+  "properties" : {
+    "owner" : "codespace",
+    "write.parquet.compression-codec" : "zstd"
+  },
+  "current-snapshot-id" : 813766991272557904,
+  "refs" : {
+    "main" : {
+      "snapshot-id" : 813766991272557904,
+      "type" : "branch"
+    }
+  },
+  "snapshots" : [ {
+    "sequence-number" : 1,
+    "snapshot-id" : 4600632374710708165,
+    "timestamp-ms" : 1762368124087,
+    "summary" : {
+      "operation" : "overwrite",
+      "spark.app.id" : "local-1762368115589",
+      "added-data-files" : "1",
+      "added-records" : "100",
+      "added-files-size" : "10458",
+      "changed-partition-count" : "1",
+      "total-records" : "100",
+      "total-files-size" : "10458",
+      "total-data-files" : "1",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0",
+      "engine-version" : "3.5.7",
+      "app-id" : "local-1762368115589",
+      "engine-name" : "spark",
+      "iceberg-version" : "Apache Iceberg 1.6.1 (commit 8e9d59d299be42b0bca9461457cd1e95dbaad086)"
+    },
+    "manifest-list" : "warehouse_path/filmes/top100/metadata/snap-4600632374710708165-1-942fd974-9e06-4644-8dc8-e9b0d02c9036.avro",
+    "schema-id" : 1
+  }, {
+    "sequence-number" : 2,
+    "snapshot-id" : 1049576761266200776,
+    "timestamp-ms" : 1762368310111,
+    "summary" : {
+      "operation" : "overwrite",
+      "spark.app.id" : "local-1762368115589",
+      "added-data-files" : "1",
+      "added-records" : "100",
+      "added-files-size" : "10458",
+      "changed-partition-count" : "1",
+      "total-records" : "100",
+      "total-files-size" : "10458",
+      "total-data-files" : "1",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0",
+      "engine-version" : "3.5.7",
+      "app-id" : "local-1762368115589",
+      "engine-name" : "spark",
+      "iceberg-version" : "Apache Iceberg 1.6.1 (commit 8e9d59d299be42b0bca9461457cd1e95dbaad086)"
+    },
+    "manifest-list" : "warehouse_path/filmes/top100/metadata/snap-1049576761266200776-1-eba26708-3f0d-4461-bb94-54782e1b24b8.avro",
+    "schema-id" : 1
+  }, {
+    "sequence-number" : 3,
+    "snapshot-id" : 6507080653630341366,
+    "timestamp-ms" : 1762368522528,
+    "summary" : {
+      "operation" : "overwrite",
+      "spark.app.id" : "local-1762368115589",
+      "added-data-files" : "1",
+      "added-records" : "100",
+      "added-files-size" : "10361",
+      "changed-partition-count" : "1",
+      "total-records" : "100",
+      "total-files-size" : "10361",
+      "total-data-files" : "1",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0",
+      "engine-version" : "3.5.7",
+      "app-id" : "local-1762368115589",
+      "engine-name" : "spark",
+      "iceberg-version" : "Apache Iceberg 1.6.1 (commit 8e9d59d299be42b0bca9461457cd1e95dbaad086)"
+    },
+    "manifest-list" : "warehouse_path/filmes/top100/metadata/snap-6507080653630341366-1-bdc76d1f-79e6-4fbc-b5ab-2bff7f7e2d5c.avro",
+    "schema-id" : 2
+  }, {
+    "sequence-number" : 4,
+    "snapshot-id" : 5819190123125743090,
+    "timestamp-ms" : 1762368913390,
+    "summary" : {
+      "operation" : "overwrite",
+      "spark.app.id" : "local-1762368115589",
+      "added-data-files" : "1",
+      "added-records" : "100",
+      "added-files-size" : "10361",
+      "changed-partition-count" : "1",
+      "total-records" : "100",
+      "total-files-size" : "10361",
+      "total-data-files" : "1",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0",
+      "engine-version" : "3.5.7",
+      "app-id" : "local-1762368115589",
+      "engine-name" : "spark",
+      "iceberg-version" : "Apache Iceberg 1.6.1 (commit 8e9d59d299be42b0bca9461457cd1e95dbaad086)"
+    },
+    "manifest-list" : "warehouse_path/filmes/top100/metadata/snap-5819190123125743090-1-4b5bca3c-2cef-4c67-b6ac-b188fbf751f8.avro",
+    "schema-id" : 2
+  }, {
+    "sequence-number" : 5,
+    "snapshot-id" : 1256777982196367609,
+    "timestamp-ms" : 1762369006083,
+    "summary" : {
+      "operation" : "overwrite",
+      "spark.app.id" : "local-1762368115589",
+      "added-data-files" : "1",
+      "added-records" : "100",
+      "added-files-size" : "10361",
+      "changed-partition-count" : "1",
+      "total-records" : "100",
+      "total-files-size" : "10361",
+      "total-data-files" : "1",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0",
+      "engine-version" : "3.5.7",
+      "app-id" : "local-1762368115589",
+      "engine-name" : "spark",
+      "iceberg-version" : "Apache Iceberg 1.6.1 (commit 8e9d59d299be42b0bca9461457cd1e95dbaad086)"
+    },
+    "manifest-list" : "warehouse_path/filmes/top100/metadata/snap-1256777982196367609-1-f1523456-1888-41de-87d9-8d8e22d02953.avro",
+    "schema-id" : 2
+  }, {
+    "sequence-number" : 6,
+    "snapshot-id" : 2043664312782782116,
+    "timestamp-ms" : 1762369085260,
+    "summary" : {
+      "operation" : "overwrite",
+      "spark.app.id" : "local-1762368115589",
+      "added-data-files" : "1",
+      "added-records" : "100",
+      "added-files-size" : "10361",
+      "changed-partition-count" : "1",
+      "total-records" : "100",
+      "total-files-size" : "10361",
+      "total-data-files" : "1",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0",
+      "engine-version" : "3.5.7",
+      "app-id" : "local-1762368115589",
+      "engine-name" : "spark",
+      "iceberg-version" : "Apache Iceberg 1.6.1 (commit 8e9d59d299be42b0bca9461457cd1e95dbaad086)"
+    },
+    "manifest-list" : "warehouse_path/filmes/top100/metadata/snap-2043664312782782116-1-e1c45ab0-af89-4267-b9a2-32c150f3aa25.avro",
+    "schema-id" : 2
+  }, {
+    "sequence-number" : 7,
+    "snapshot-id" : 7855094764059637545,
+    "timestamp-ms" : 1762369118420,
+    "summary" : {
+      "operation" : "overwrite",
+      "spark.app.id" : "local-1762368115589",
+      "added-data-files" : "1",
+      "added-records" : "100",
+      "added-files-size" : "10361",
+      "changed-partition-count" : "1",
+      "total-records" : "100",
+      "total-files-size" : "10361",
+      "total-data-files" : "1",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0",
+      "engine-version" : "3.5.7",
+      "app-id" : "local-1762368115589",
+      "engine-name" : "spark",
+      "iceberg-version" : "Apache Iceberg 1.6.1 (commit 8e9d59d299be42b0bca9461457cd1e95dbaad086)"
+    },
+    "manifest-list" : "warehouse_path/filmes/top100/metadata/snap-7855094764059637545-1-e9feee97-1e2d-4f89-a264-8a49fc6b5550.avro",
+    "schema-id" : 2
+  }, {
+    "sequence-number" : 8,
+    "snapshot-id" : 3972938934293184925,
+    "timestamp-ms" : 1762369568340,
+    "summary" : {
+      "operation" : "append",
+      "spark.app.id" : "local-1762369520511",
+      "added-data-files" : "1",
+      "added-records" : "100",
+      "added-files-size" : "10361",
+      "changed-partition-count" : "1",
+      "total-records" : "100",
+      "total-files-size" : "10361",
+      "total-data-files" : "1",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0",
+      "engine-version" : "3.5.1",
+      "app-id" : "local-1762369520511",
+      "engine-name" : "spark",
+      "iceberg-version" : "Apache Iceberg 1.6.1 (commit 8e9d59d299be42b0bca9461457cd1e95dbaad086)"
+    },
+    "manifest-list" : "warehouse_path/filmes/top100/metadata/snap-3972938934293184925-1-05c3f904-c358-4035-998f-cb232c3f18dc.avro",
+    "schema-id" : 2
+  }, {
+    "sequence-number" : 9,
+    "snapshot-id" : 7436219308034144296,
+    "timestamp-ms" : 1762371186809,
+    "summary" : {
+      "operation" : "append",
+      "spark.app.id" : "local-1762369520511",
+      "added-data-files" : "1",
+      "added-records" : "100",
+      "added-files-size" : "10286",
+      "changed-partition-count" : "1",
+      "total-records" : "100",
+      "total-files-size" : "10286",
+      "total-data-files" : "1",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0",
+      "engine-version" : "3.5.1",
+      "app-id" : "local-1762369520511",
+      "engine-name" : "spark",
+      "iceberg-version" : "Apache Iceberg 1.6.1 (commit 8e9d59d299be42b0bca9461457cd1e95dbaad086)"
+    },
+    "manifest-list" : "warehouse_path/filmes/top100/metadata/snap-7436219308034144296-1-f8bc47b5-c837-4ca9-8dce-58e4b2ebda0d.avro",
+    "schema-id" : 3
+  }, {
+    "sequence-number" : 10,
+    "snapshot-id" : 129264117986244784,
+    "timestamp-ms" : 1762372286466,
+    "summary" : {
+      "operation" : "append",
+      "spark.app.id" : "local-1762369520511",
+      "added-data-files" : "1",
+      "added-records" : "100",
+      "added-files-size" : "10286",
+      "changed-partition-count" : "1",
+      "total-records" : "100",
+      "total-files-size" : "10286",
+      "total-data-files" : "1",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0",
+      "engine-version" : "3.5.1",
+      "app-id" : "local-1762369520511",
+      "engine-name" : "spark",
+      "iceberg-version" : "Apache Iceberg 1.6.1 (commit 8e9d59d299be42b0bca9461457cd1e95dbaad086)"
+    },
+    "manifest-list" : "warehouse_path/filmes/top100/metadata/snap-129264117986244784-1-80d3ca1c-3428-4789-9c5e-e545bdb79787.avro",
+    "schema-id" : 3
+  }, {
+    "sequence-number" : 11,
+    "snapshot-id" : 6560957523199716740,
+    "parent-snapshot-id" : 129264117986244784,
+    "timestamp-ms" : 1762372303716,
+    "summary" : {
+      "operation" : "overwrite",
+      "spark.app.id" : "local-1762369520511",
+      "replace-partitions" : "true",
+      "added-data-files" : "1",
+      "deleted-data-files" : "1",
+      "added-records" : "100",
+      "deleted-records" : "100",
+      "added-files-size" : "10286",
+      "removed-files-size" : "10286",
+      "changed-partition-count" : "1",
+      "total-records" : "100",
+      "total-files-size" : "10286",
+      "total-data-files" : "1",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0",
+      "engine-version" : "3.5.1",
+      "app-id" : "local-1762369520511",
+      "engine-name" : "spark",
+      "iceberg-version" : "Apache Iceberg 1.6.1 (commit 8e9d59d299be42b0bca9461457cd1e95dbaad086)"
+    },
+    "manifest-list" : "warehouse_path/filmes/top100/metadata/snap-6560957523199716740-1-a1730a19-4b90-414e-a8a3-a6979e628d73.avro",
+    "schema-id" : 3
+  }, {
+    "sequence-number" : 12,
+    "snapshot-id" : 1012739028524367255,
+    "parent-snapshot-id" : 6560957523199716740,
+    "timestamp-ms" : 1762372308220,
+    "summary" : {
+      "operation" : "overwrite",
+      "spark.app.id" : "local-1762369520511",
+      "replace-partitions" : "true",
+      "added-data-files" : "1",
+      "deleted-data-files" : "1",
+      "added-records" : "20",
+      "deleted-records" : "100",
+      "added-files-size" : "6095",
+      "removed-files-size" : "10286",
+      "changed-partition-count" : "1",
+      "total-records" : "20",
+      "total-files-size" : "6095",
+      "total-data-files" : "1",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0",
+      "engine-version" : "3.5.1",
+      "app-id" : "local-1762369520511",
+      "engine-name" : "spark",
+      "iceberg-version" : "Apache Iceberg 1.6.1 (commit 8e9d59d299be42b0bca9461457cd1e95dbaad086)"
+    },
+    "manifest-list" : "warehouse_path/filmes/top100/metadata/snap-1012739028524367255-1-cce0461e-5ecd-4915-adf1-80353e555ee1.avro",
+    "schema-id" : 3
+  }, {
+    "sequence-number" : 13,
+    "snapshot-id" : 7780570115630235629,
+    "timestamp-ms" : 1762372925196,
+    "summary" : {
+      "operation" : "append",
+      "spark.app.id" : "local-1762372907640",
+      "added-data-files" : "1",
+      "added-records" : "100",
+      "added-files-size" : "10286",
+      "changed-partition-count" : "1",
+      "total-records" : "100",
+      "total-files-size" : "10286",
+      "total-data-files" : "1",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0",
+      "engine-version" : "3.5.1",
+      "app-id" : "local-1762372907640",
+      "engine-name" : "spark",
+      "iceberg-version" : "Apache Iceberg 1.6.1 (commit 8e9d59d299be42b0bca9461457cd1e95dbaad086)"
+    },
+    "manifest-list" : "warehouse_path/filmes/top100/metadata/snap-7780570115630235629-1-842b0520-d20e-4bdc-8d16-fcc00f97bda3.avro",
+    "schema-id" : 3
+  }, {
+    "sequence-number" : 14,
+    "snapshot-id" : 4361666797300887692,
+    "parent-snapshot-id" : 7780570115630235629,
+    "timestamp-ms" : 1762373321400,
+    "summary" : {
+      "operation" : "append",
+      "spark.app.id" : "local-1762372907640",
+      "added-data-files" : "1",
+      "added-records" : "1",
+      "added-files-size" : "3317",
+      "changed-partition-count" : "1",
+      "total-records" : "101",
+      "total-files-size" : "13603",
+      "total-data-files" : "2",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0",
+      "engine-version" : "3.5.1",
+      "app-id" : "local-1762372907640",
+      "engine-name" : "spark",
+      "iceberg-version" : "Apache Iceberg 1.6.1 (commit 8e9d59d299be42b0bca9461457cd1e95dbaad086)"
+    },
+    "manifest-list" : "warehouse_path/filmes/top100/metadata/snap-4361666797300887692-1-3bd5a7ac-3cf6-42dd-a41b-4fefbc5ee7f9.avro",
+    "schema-id" : 3
+  }, {
+    "sequence-number" : 15,
+    "snapshot-id" : 813766991272557904,
+    "parent-snapshot-id" : 4361666797300887692,
+    "timestamp-ms" : 1762373329736,
+    "summary" : {
+      "operation" : "overwrite",
+      "spark.app.id" : "local-1762372907640",
+      "replace-partitions" : "true",
+      "added-data-files" : "1",
+      "deleted-data-files" : "2",
+      "added-records" : "101",
+      "deleted-records" : "101",
+      "added-files-size" : "10315",
+      "removed-files-size" : "13603",
+      "changed-partition-count" : "1",
+      "total-records" : "101",
+      "total-files-size" : "10315",
+      "total-data-files" : "1",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0",
+      "engine-version" : "3.5.1",
+      "app-id" : "local-1762372907640",
+      "engine-name" : "spark",
+      "iceberg-version" : "Apache Iceberg 1.6.1 (commit 8e9d59d299be42b0bca9461457cd1e95dbaad086)"
+    },
+    "manifest-list" : "warehouse_path/filmes/top100/metadata/snap-813766991272557904-1-7e7d8ace-fa24-4f89-8379-cc66058feb76.avro",
+    "schema-id" : 3
+  } ],
+  "statistics" : [ ],
+  "partition-statistics" : [ ],
+  "snapshot-log" : [ {
+    "timestamp-ms" : 1762368124087,
+    "snapshot-id" : 4600632374710708165
+  }, {
+    "timestamp-ms" : 1762368310111,
+    "snapshot-id" : 1049576761266200776
+  }, {
+    "timestamp-ms" : 1762368522528,
+    "snapshot-id" : 6507080653630341366
+  }, {
+    "timestamp-ms" : 1762368913390,
+    "snapshot-id" : 5819190123125743090
+  }, {
+    "timestamp-ms" : 1762369006083,
+    "snapshot-id" : 1256777982196367609
+  }, {
+    "timestamp-ms" : 1762369085260,
+    "snapshot-id" : 2043664312782782116
+  }, {
+    "timestamp-ms" : 1762369118420,
+    "snapshot-id" : 7855094764059637545
+  }, {
+    "timestamp-ms" : 1762369568340,
+    "snapshot-id" : 3972938934293184925
+  }, {
+    "timestamp-ms" : 1762371186809,
+    "snapshot-id" : 7436219308034144296
+  }, {
+    "timestamp-ms" : 1762372286466,
+    "snapshot-id" : 129264117986244784
+  }, {
+    "timestamp-ms" : 1762372303716,
+    "snapshot-id" : 6560957523199716740
+  }, {
+    "timestamp-ms" : 1762372308220,
+    "snapshot-id" : 1012739028524367255
+  }, {
+    "timestamp-ms" : 1762372925196,
+    "snapshot-id" : 7780570115630235629
+  }, {
+    "timestamp-ms" : 1762373321400,
+    "snapshot-id" : 4361666797300887692
+  }, {
+    "timestamp-ms" : 1762373329736,
+    "snapshot-id" : 813766991272557904
+  } ],
+  "metadata-log" : [ {
+    "timestamp-ms" : 1762363687586,
+    "metadata-file" : "warehouse_path/filmes/top100/metadata/v1.metadata.json"
+  }, {
+    "timestamp-ms" : 1762368124087,
+    "metadata-file" : "warehouse_path/filmes/top100/metadata/v2.metadata.json"
+  }, {
+    "timestamp-ms" : 1762368310111,
+    "metadata-file" : "warehouse_path/filmes/top100/metadata/v3.metadata.json"
+  }, {
+    "timestamp-ms" : 1762368522528,
+    "metadata-file" : "warehouse_path/filmes/top100/metadata/v4.metadata.json"
+  }, {
+    "timestamp-ms" : 1762368913390,
+    "metadata-file" : "warehouse_path/filmes/top100/metadata/v5.metadata.json"
+  }, {
+    "timestamp-ms" : 1762369006083,
+    "metadata-file" : "warehouse_path/filmes/top100/metadata/v6.metadata.json"
+  }, {
+    "timestamp-ms" : 1762369085260,
+    "metadata-file" : "warehouse_path/filmes/top100/metadata/v7.metadata.json"
+  }, {
+    "timestamp-ms" : 1762369118420,
+    "metadata-file" : "warehouse_path/filmes/top100/metadata/v8.metadata.json"
+  }, {
+    "timestamp-ms" : 1762369568340,
+    "metadata-file" : "warehouse_path/filmes/top100/metadata/v9.metadata.json"
+  }, {
+    "timestamp-ms" : 1762371186809,
+    "metadata-file" : "warehouse_path/filmes/top100/metadata/v10.metadata.json"
+  }, {
+    "timestamp-ms" : 1762372286466,
+    "metadata-file" : "warehouse_path/filmes/top100/metadata/v11.metadata.json"
+  }, {
+    "timestamp-ms" : 1762372303716,
+    "metadata-file" : "warehouse_path/filmes/top100/metadata/v12.metadata.json"
+  }, {
+    "timestamp-ms" : 1762372308220,
+    "metadata-file" : "warehouse_path/filmes/top100/metadata/v13.metadata.json"
+  }, {
+    "timestamp-ms" : 1762372925196,
+    "metadata-file" : "warehouse_path/filmes/top100/metadata/v14.metadata.json"
+  }, {
+    "timestamp-ms" : 1762373321400,
+    "metadata-file" : "warehouse_path/filmes/top100/metadata/v15.metadata.json"
+  } ]
+}
