@@ -1,7 +1,7 @@
 # Delta Lake com Spark
 
 ## Modelo ER
-![Modelo ER](imagens/modelo_er_delta.png)
+![Modelo ER](docs/imagens/modeloERtop100_movies.png)
 
 ## Estrutura da Tabela
 

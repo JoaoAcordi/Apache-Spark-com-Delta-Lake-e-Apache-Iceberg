@@ -1,7 +1,7 @@
 # Apache Iceberg com Spark
 
 ## Modelo ER
-![Modelo ER](imagens/modelo_er_iceberg.png)
+![Modelo ER](docs/imagens/modeloERtop100_movies.png)
 
 ## Estrutura da Tabela
 
