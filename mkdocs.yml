@@ -1,0 +1,21 @@
+site_name: Apache Spark com Delta Lake e Iceberg
+nav:
+  - Início: index.md
+  - Apache Iceberg: iceberg.md
+  - Delta Lake: delta.md
+theme:
+  name: material
+  palette:
+    primary: deep purple
+    accent: teal
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.tabs
+    - content.code.copy
+markdown_extensions:
+  - codehilite
+  - admonition
+  - toc:
+      permalink: true
